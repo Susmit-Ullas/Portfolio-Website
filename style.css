@@ -8,3 +8,8 @@ body {
     background-color: #fff;
     color: #000;
 }
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
