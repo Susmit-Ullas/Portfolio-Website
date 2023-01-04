@@ -21,11 +21,6 @@ p {
     padding: 20px;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-}
-
 .read {
     background-color: #212529;
     color: rgb(184, 0, 132);
