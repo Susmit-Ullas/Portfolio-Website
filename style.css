@@ -35,3 +35,9 @@ p {
     font-weight: 400;
     margin: 20px;
 }
+
+.read:hover {
+    background-color: rgb(184, 0, 132);
+    color: #212529;
+    border: 1px solid rgb(184, 0, 132);
+}
