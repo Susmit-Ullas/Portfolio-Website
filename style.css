@@ -190,3 +190,8 @@ ul
 {
     margin-right: 15px;
 }
+
+.home .home-img img 
+{
+    height: 400px;
+}
