@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
 }
 
 :root {
@@ -12,3 +14,7 @@
     --text-black-700:#504e70;
 }
 
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
