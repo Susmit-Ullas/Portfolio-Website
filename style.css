@@ -77,6 +77,38 @@ ul
 {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-title h2
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    position: relative;
+}
+
+.section-title h2::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 50px;
+    height: 4px;
+    background-color: var(--skin-color);
+}
+
+.section-title h2::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 25px;
+    height: 4px;
+    background-color: var(--skin-color);
+    margin-top: 8px;
 }
 
 .row 
@@ -332,4 +364,83 @@ h3.my-profession
     margin: auto;
     border-radius: 5px;
     height: 400px;
+}
+
+.about .about-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text h3
+{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.about .about-content .about-text h3 span
+{
+    color: var(--skin-color);
+}
+
+.about .about-content .about-text p
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}
+
+.about .about-content .personal-info
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.about .about-content .personal-info .info-item
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.about .about-content .personal-info .info-item p
+{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--bg-black-50);
+}
+
+.about .about-content .personal-info .info-item p span
+{
+    color: var(--text-black-700);
+    font-weight: 400;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.about .about-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+
+.about .about-content .personal-info .buttons .btn
+{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.about .about-content .skills
+{
+    flex: 0 0 40%;
+    max-width: 40%;
 }
