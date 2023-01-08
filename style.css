@@ -18,6 +18,11 @@
     --text-black-700:#504e70;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body 
 {
     line-height: 1.5;
