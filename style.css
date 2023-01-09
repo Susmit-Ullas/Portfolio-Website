@@ -149,6 +149,7 @@ ul
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
+/* aside */
 .aside 
 {
     width: 270px;
@@ -292,6 +293,7 @@ ul
     margin-right: 15px;
 }
 
+/* home */
 .home 
 {
     min-height: 100vh;
@@ -382,6 +384,7 @@ h3.my-profession
     max-width: 100%;
 }
 
+/* about */
 .about .about-content .about-text
 {
     flex: 0 0 100%;
@@ -606,4 +609,12 @@ h3.my-profession
     color: var(--text-black-700);
     line-height: 25px;
     text-align: justify;
+}
+
+/* service */
+.service .service-item
+{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
 }
