@@ -441,12 +441,19 @@ h3.my-profession
 .about .about-content .personal-info .buttons
 {
     margin-top: 30px;
+    width: 100%;
 }
 
 .about .about-content .personal-info .buttons .btn
 {
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.about .about-content .personal-info .buttons a.btn.hire-me
+{
+    position: relative;
+    margin-left: 116.5px;
 }
 
 .about .about-content .skills
