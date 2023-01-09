@@ -628,3 +628,9 @@ h3.my-profession
     transition: all 0.3s ease;
     border: 1px solid var(--bg-black-50);
 }
+
+.service .service-item .service-item-inner:hover
+{
+    box-shadow: 0 0 20px rgb(48, 46, 77, 0.15);
+}
+
