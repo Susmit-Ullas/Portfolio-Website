@@ -626,7 +626,5 @@ h3.my-profession
     border-radius: 10px;
     text-align: center;
     transition: all 0.3s ease;
-    position: relative;
-    width: 100%;
     border: 1px solid var(--bg-black-50);
 }
