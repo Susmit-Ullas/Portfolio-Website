@@ -618,3 +618,15 @@ h3.my-profession
     max-width: 33.33%;
     margin-bottom: 30px;
 }
+
+.service .service-item .service-item-inner
+{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--bg-black-50);
+}
