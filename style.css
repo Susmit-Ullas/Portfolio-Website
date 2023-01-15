@@ -612,6 +612,11 @@ h3.my-profession
 }
 
 /* service */
+.service .container
+{
+    padding-bottom: 40px;
+}
+
 .service .service-item
 {
     flex: 0 0 33.33%;
