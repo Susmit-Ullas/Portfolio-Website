@@ -685,6 +685,11 @@ h3.my-profession
 }
 
 /* portfolio */
+.portfolio .container
+{
+    padding-bottom: 40px;
+}
+
 .portfolio .portfolio-heading
 {
     flex: 0 0 100%;
