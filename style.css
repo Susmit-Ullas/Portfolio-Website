@@ -379,6 +379,7 @@ h3.my-profession
     height: 400px;
 }
 /* home */
+
 /* about */
 .about .about-content
 {
@@ -612,6 +613,7 @@ h3.my-profession
     line-height: 25px;
     text-align: justify;
 }
+/* about */
 
 /* service */
 .service .container
