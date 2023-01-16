@@ -150,7 +150,6 @@ ul
 }
 
 /* aside */
-
 .aside 
 {
     width: 270px;
@@ -293,9 +292,9 @@ ul
 {
     margin-right: 15px;
 }
+/* aside */
 
 /* home */
-
 .home 
 {
     min-height: 100vh;
