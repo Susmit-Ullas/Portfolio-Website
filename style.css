@@ -378,14 +378,15 @@ h3.my-profession
     border-radius: 5px;
     height: 400px;
 }
-
+/* home */
+/* about */
 .about .about-content
 {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-/* about */
+
 .about .about-content .about-text
 {
     flex: 0 0 100%;
