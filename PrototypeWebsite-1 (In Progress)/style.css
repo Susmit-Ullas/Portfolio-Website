@@ -615,7 +615,7 @@ h3.my-profession
 }
 /* About End*/
 
-/* service */
+/* Service Start*/
 .service .container
 {
     padding-bottom: 40px;
@@ -687,7 +687,7 @@ h3.my-profession
     color: var(--text-black-700);
     line-height: 25px;
 }
-/* service */
+/* Service End*/
 
 /* portfolio */
 .portfolio .container
