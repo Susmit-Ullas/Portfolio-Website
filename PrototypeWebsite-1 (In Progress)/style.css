@@ -380,7 +380,7 @@ h3.my-profession
 }
 /* Home End*/
 
-/* about */
+/* About Start*/
 .about .about-content
 {
     flex: 0 0 100%;
@@ -613,7 +613,7 @@ h3.my-profession
     line-height: 25px;
     text-align: justify;
 }
-/* about */
+/* About End*/
 
 /* service */
 .service .container
