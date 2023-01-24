@@ -689,7 +689,7 @@ h3.my-profession
 }
 /* Service End*/
 
-/* portfolio */
+/* Portfolio Start*/
 .portfolio .container
 {
     padding-bottom: 40px;
@@ -728,7 +728,7 @@ h3.my-profession
     width: 100%;
     display: block;
 }
-/* portfolio */
+/* Portfolio End*/
 
 /* Contact */
 .contact-title
