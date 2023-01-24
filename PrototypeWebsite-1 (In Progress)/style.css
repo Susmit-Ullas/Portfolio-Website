@@ -294,7 +294,7 @@ ul
 }
 /* Aside End*/
 
-/* home */
+/* Home Start*/
 .home 
 {
     min-height: 100vh;
@@ -378,7 +378,7 @@ h3.my-profession
     border-radius: 5px;
     height: 400px;
 }
-/* home */
+/* Home End*/
 
 /* about */
 .about .about-content
