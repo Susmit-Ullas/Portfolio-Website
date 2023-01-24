@@ -730,7 +730,7 @@ h3.my-profession
 }
 /* Portfolio End*/
 
-/* Contact */
+/* Contact Start*/
 .contact-title
 {
     color: var(--skin-color);
@@ -745,4 +745,4 @@ h3.my-profession
     font-size: 15px;
     text-align: center;
 }
-/* Contact */
+/* Contact End*/
