@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS Files -->
     <title>Susmit Ullas</title>
 </head>
 
 <body>
-    <div class="main-container">
-        
+    <class="main-container">
+   
         <div class="aside">
             <div class="logo">
                 <a href="#"><span>A</span>tlas</a>
@@ -24,23 +23,23 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
 
         <div class="main-content">
 
             <!-- Home Section Start -->
-            <section class="home section hidden">
+            <section class="home active section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, my name is <span class="name">Susmit Ullas</span></h3>
-                            <h3 class="my-profession">I' m a <span class="typing">web designer</span></h3>
+                            <h3 class="my-profession">I' m a <span class="typing"></span></h3>
                             <p>ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
@@ -53,7 +52,7 @@
             <!-- Home Section End -->
 
             <!-- About Section Start -->
-            <section class="about section hidden">
+            <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -101,7 +100,6 @@
                                     <div class="row">
                                         <div class="buttons padd-15">
                                             <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
                                         </div>
                                     </div>
                                 </div>
@@ -274,7 +272,7 @@
             <!-- About Section End -->
 
             <!-- Services Section Start -->
-            <section class="service section hidden">
+            <section class="service section" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -385,7 +383,7 @@
             <!-- Services Section End -->
 
             <!-- Portfolio Section Start -->
-            <section class="portfolio section hidden">
+            <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -401,54 +399,54 @@
 
                         <!-- portfolio item 1-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-1.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-1.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
 
                         <!-- portfolio item 2-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-2.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-2.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
 
                         <!-- portfolio item 3-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-3.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-3.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
 
                         <!-- portfolio item 4-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-4.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-4.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
 
                         <!-- portfolio item 5-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-5.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-5.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
 
                         <!-- portfolio item 6-->
                         <div class="portfolio-item padd-15">
-                            <div class="portofolio-item-inner shadow-dark">
+                            <div class="portfolio-item-inner shadow-dark">
                                 <div class="portfolio-img">
-                                    <img src="img/portfolio-6.jpg" alt="Portfolio">
+                                    <img src="Resources/portfolio-6.jpg" alt="Portfolio">
                                 </div>
                             </div>
                         </div>
@@ -459,15 +457,15 @@
             <!-- Portfolio Section End -->
 
             <!-- Contact Section Start -->
-            <section class="contact section">
+            <section class="contact section" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
                             <h2>Contact Me</h2>
                         </div>
                     </div>
-                    <h3 class="contact-title">Do You Have Any Questions ?</h3>
-                    <h4 class="contact-sub-title">Feel Free To Contact Me</h4>
+                    <h3 class="contact-title padd-15">Do You Have Any Questions ?</h3>
+                    <h4 class="contact-sub-title padd-15">Feel Free To Contact Me</h4>
                     <div class="row">
 
                         <!-- Contact Info Item 1-->
@@ -479,7 +477,7 @@
 
                         <!-- Contact Info Item 2-->
                         <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-marker-alt"></i></div>
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
                             <h4>Office</h4>
                             <p>India</p>
                         </div>
@@ -499,6 +497,47 @@
                         </div>
 
                     </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <!-- Contact Form Start-->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" id="" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Contact Form End-->
+
                 </div>
             </section>
             <!-- Contact Section End -->
@@ -507,6 +546,7 @@
 
     </div>
     <!-- JS Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
     <!-- JS Files -->
 </body>
