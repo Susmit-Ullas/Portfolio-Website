@@ -31,6 +31,7 @@
     background: var(--skin-color);
     border-radius: .2vw;
     margin-block: .1em;
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
 }
 
 ::-webkit-scrollbar-thumb
@@ -809,12 +810,6 @@ h3.my-profession
     max-width: 100%;
 }
 
-.contact .contact-form .col-6
-{
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
 .contact .contact-form .col-12
 {
     flex: 0 0 100%;
@@ -830,23 +825,47 @@ h3.my-profession
 {
     width: 100%;
     height: 50px;
-    background: var(--bg-black-100);
+    background: var(--bg-black-900);
     border: 1px solid var(--bg-black-50);
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 10 25px;
     font-size: 16px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
 }
 
+.contact .contact-form .form-item .form-control:valid ~ span,
+.contact .contact-form .form-item .form-control:focus ~ span
+{
+    color: var(--skin-color);
+    transform: translateX(10px) translateY(-19px);
+    font-size: .8em;
+    background: var(--bg-black-900);
+    padding: 0 10px;
+    border-radius: 50%;
+}
+
+.contact .contact-form .form-item .form-control:valid,
 .contact .contact-form .form-item .form-control:focus
 {
-    box-shadow: 0 0 20px rgb(48, 46, 77, 0.15);
+    border: 1px solid var(--skin-color);
 }
 
 .contact .contact-form .form-item textarea.form-control
 {
     height: 140px;
+}
+
+.contact .contact-form .form-item .form-group span
+{
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    pointer-events: none;
+    color: var(--text-black-700);
+    font-size: 1em;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .contact .contact-form .btn
