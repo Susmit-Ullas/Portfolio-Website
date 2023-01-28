@@ -439,7 +439,7 @@ h3.my-profession
 {
     flex: 0 0 60%;
     max-width: 60%;
-    margin-top: 40px;
+    padding-top: 45px;
 }
 
 .about .about-content .personal-info .info-item
