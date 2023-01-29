@@ -8,14 +8,14 @@ var typed = new Typed('.typing',
 });
 
 // aside script
-    const navTogglerBtn = document.querySelector('.nav-toggler'),
-        aside = document.querySelector('.aside');
-        navTogglerBtn.addEventListener('click', () =>
-        {
-            asideSectionTogglerBtn();
-        })
-        function asideSectionTogglerBtn()
-        {
-            aside.classList.toggle('open');
-            navTogglerBtn.classList.toggle('open');
-        }
+const navTogglerBtn = document.querySelector('.nav-toggler'),
+      aside = document.querySelector('.aside');
+      navTogglerBtn.addEventListener('click', () =>
+      {
+        asideSectionTogglerBtn();
+      })
+      function asideSectionTogglerBtn()
+      {
+        aside.classList.toggle('open');
+        navTogglerBtn.classList.toggle('open');
+      }
