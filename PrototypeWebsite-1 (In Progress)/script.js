@@ -8,7 +8,6 @@ var typed = new Typed('.typing',
 });
 
 // aside script
-
     const navTogglerBtn = document.querySelector('.nav-toggler'),
         aside = document.querySelector('.aside');
         navTogglerBtn.addEventListener('click', () =>
