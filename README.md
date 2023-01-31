@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-This repository contains all my prototype portfolio websites. The latest deployment ready prototype will be updated to [this repository](https://github.com/Susmit-Ullas/Susmit-Ullas.github.io) which will be deployed using GitHub Pages.
+The repository contains a collection of all my prototype portfolio websites. The latest deployment ready prototype will be updated to [Susmit-Ullas.github.io Repository](https://github.com/Susmit-Ullas/Susmit-Ullas.github.io) which will be deployed using GitHub Pages.
 
 ## Contributing
 
